@@ -1,0 +1,233 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color:white
+}
+.back{
+    background: url("../img/back.jpg") no-repeat;
+    background-size: cover;
+}
+/*                                  顶部栏 begin                           */
+.head{
+    height: 80px;
+    color:lightgrey;
+    background-color: #2b303b;
+    padding: 0 100px;
+    min-width: 980px;
+    margin: 0;
+    box-shadow: inset 0 -1px 0 0 #344258;
+}
+/* 顶部栏图标区 */
+.head_icon{
+    float: left;
+    height: 80px;
+    width: 350px;
+}
+.head_icon div h4{
+    position: relative;
+    top: 15px;
+}
+/* 顶部栏cfop 文字*/
+.head_icon div{
+    float: left;
+}
+.head div ul li{
+    float: left;
+    position: relative;
+    list-style-type:none;
+}
+.head div ul li a{
+    display: block;
+    text-decoration:none;
+    font-size: 20px;
+    color: seashell;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.head div ul li a:hover{
+    color: lightcyan;
+    cursor:pointer;
+}
+.cross_word_change{
+    border-bottom: rgb(255,245,238) solid 3px;
+}
+
+/*                                  顶部栏 end                           */
+/*                                  main begin                           */
+.border{
+    float: left;
+    width: 100px;
+    height: 600px;
+}
+.side{
+    float: left;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    height: 623px;
+    width: 1200px;
+    box-shadow: 10px 15px 15px 1px rgb(54 58 80 / 32%);
+/* background-color: white; */
+opacity: 0.9;
+}
+.side .sidein{
+    float: left;
+    height: 623px;
+    width: 1200px;
+    top: 0;
+    color: azure;
+    /* background-color: rgb(255 255 255); */
+    padding: 0;
+    overflow: auto;
+    display: none;
+    background-color: #f2f2f2;
+
+    /* opacity: 0.8; */
+    
+}
+.side div ul li .situation
+{
+    float: left;
+    width: 100px;
+    height: 100px;
+    
+}
+.side div ul li{
+    width: 110px;
+    height: 100px;
+    padding: 5px;
+    list-style-type:none;
+    background-color: white;
+}
+.side a{
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin-left: 0;
+    margin-top: 46px;
+    border-radius: 50%;
+    /* background-color: rgb(43,48,59); */
+    background-color:transparent;
+
+}
+.side div ul li div{
+    width: 854px;
+    height: 575px;
+    position: absolute;
+    left: 250px;
+    top: 25px;
+    /* background:url("../img/blackboard.jpg") no-repeat ; */
+    /* background-color: rgb(43,48,59); */
+    background-color: white;
+
+    background-size: cover;
+    display: none;
+    box-shadow: 10px 15px 15px 1px rgb(54 58 80 / 32%);
+
+    color: tomato;
+
+}
+.side div ul{
+    width: 130px;
+    height: 575px;
+    margin: 24px;
+    padding: 0;
+    padding-left: 20px;
+    overflow: auto;
+    box-shadow: 10px 15px 15px 1px rgb(54 58 80 / 32%);
+    background-color: white;
+
+}
+.side div ul::-webkit-scrollbar{
+    border-width:1px;
+}
+.sidein li:hover{
+    cursor:pointer;
+}
+.side p{
+    float: left;
+    color: #2b303b;
+    font-size: 32px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    width: 815px;
+}
+/* .side .formula{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+} */
+/*                                  main end                           */
+
+
+/*                                  魔方 begin                           */
+.cube{
+    position: fixed;
+    width: 310px;;
+    height: 300px;;
+    right: -300px;
+    bottom: 10px;
+    box-shadow: 10px 15px 15px 1px rgb(54 58 80 / 32%);
+}
+.cube_close{
+    background-color: #2b303b;
+    float: left;
+    height: 300px;
+    width: 10px;
+}
+.cube_close:hover{
+    cursor:pointer;
+}
+.cube_html{
+    float: left;
+    width: 300px;;
+    height: 300px;;
+}
+.fresh{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 155px;
+    cursor:pointer;
+}
+/*                                  魔方 end                           */
+/*                                  底部 begin                           */
+.intr{
+    position: fixed;
+    width: 310px;;
+    height: 300px;;
+    right: -300px;
+    top: 90px;
+    box-shadow: 10px 15px 15px 1px rgb(54 58 80 / 32%);
+}
+.intr_close{
+    background-color: #2b303b;
+    float: left;
+    height: 300px;
+    width: 10px;
+}
+.intr img{
+    width: 283px;
+}
+.intr ul{
+    float: left;
+    overflow: auto;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+}
+.intr li{
+    list-style-type:none;
+
+}
+.intr ul::-webkit-scrollbar{
+    border-width:1px;
+}
+/*                                  底部 end                           */
+
+
