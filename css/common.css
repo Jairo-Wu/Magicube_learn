@@ -69,8 +69,7 @@ body{
     height: 623px;
     width: 1200px;
     box-shadow: 10px 15px 15px 1px rgb(54 58 80 / 32%);
-/* background-color: white; */
-opacity: 0.9;
+    opacity: 0.9;
 }
 .side .sidein{
     float: left;
@@ -78,13 +77,10 @@ opacity: 0.9;
     width: 1200px;
     top: 0;
     color: azure;
-    /* background-color: rgb(255 255 255); */
     padding: 0;
     overflow: auto;
     display: none;
     background-color: #f2f2f2;
-
-    /* opacity: 0.8; */
     
 }
 .side div ul li .situation

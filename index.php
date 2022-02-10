@@ -10,7 +10,6 @@
 
     <link rel="shortcut icon" href="./img/cube_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body class="back">
     <?php
@@ -48,21 +47,19 @@
         <div class="border"></div>
         <div class="side">
         <?php
-        header("Content-type:text/html;charset=utf-8");  
-
             for($turn=1;$turn<=4;$turn++)
             {
                 echo "<div class=\"sidein\">";
                 echo "<ul class=\"ul$turn\">";
                 $sql="select count(*) FROM t$turn";
                 $res=mysqli_query($link,$sql);
-                $arr = mysqli_fetch_array($res,MYSQLI_ASSOC);
+                $arr = mysqli_fetch_array($res);
                 $count=$arr['count(*)'];
                 for ($x=1; $x<=$count; $x++) 
                 {
                     $sql="select formula from t$turn where id=$x";
                     $res=mysqli_query($link,$sql);
-                    $arr = mysqli_fetch_array($res,MYSQLI_ASSOC);
+                    $arr = mysqli_fetch_array($res);
                     $formula=$arr['formula'];
                      echo "<li>
                             <img src=\"./upload/$turn/i ($x).png\" class=\"situation\">
@@ -115,7 +112,8 @@
                 }
                 echo "</ul>";
                 echo "</div>";
-            }
+            }            
+            mysqli_close($link);
         ?>
         </div>     
     <!-- 魔方 -->
