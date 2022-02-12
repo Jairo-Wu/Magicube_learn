@@ -27,17 +27,60 @@ html,body{
     width: 200px;
     height: 600px;
 }
+.side ul{
+    padding: 0;
+    width: 200px;
+    height: auto;
+}
 .side li{
     list-style: none;
     color: lightgrey;
+    
+    padding: 0;
 }
-.side li div{
+.side li p{
+    float: left;
+    padding: 20px 68px;
+    color: rgb(239,255,255);
+    background: rgb(0,110,255);
+    /* padding-right: 60px; */
+}
+/* .side li .flag{
+    background-color: aliceblue;
+
+    float: right;
+    width: 10px;
+    height: 60px;
+} */
+.side li .panel{
     position: absolute;
     top: 80px;
     left: 200px;
     color: black;
-    width: 1000px;
+    width: 1300px;
     height: 600px;
     overflow: auto;
-
+}
+.side li .add{
+    position: absolute;
+    background-color: red;
+    top: 200px;
+    left: 500px;
+    width: 300px;
+    height: 300px;
+}
+.side li .spanel{
+    float: left;
+}
+.delbt{
+    background-color: red;
+}
+.conaddbt{
+    background-color: aqua;
+}
+.modbt{
+    background-color: greenyellow;
+}
+.conmodbt{
+    background-color: green;
 }

@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="shortcut icon" href="./img/root.png" type="image/x-icon">
     <title>后台管理登录</title>
 </head>
 <body>
-    <h2>登录</h2>
-    <form action="" method="post">
-        <p>账号<input type="text" id="" name="admin" placeholder="enter admin"></p>
-        <p>密码<input type="password" id="" name="password" placeholder="enter password"></p>
-
-        <input type="submit" name="" id="" value="登录">
-        <!-- 点击按钮整个表单提交 -->
-
-    </form>
+    <div class="dowebok">
+        <div class="logo"></div>
+        <form action="" method="post">
+            <div class="form-item">
+                <input id="username" type="text"  name="admin" autocomplete="off" placeholder="账号">
+            </div>
+            <div class="form-item">
+                <input id="password" type="password" name="password" autocomplete="off" placeholder="密码">
+            </div>
+            <div class="form-item"><input type="submit" class="button" name="" id="" value="登录"></div>
+        </form>
+    </div> 
 </body>
 </html>
 <?php
@@ -34,12 +39,12 @@
         {  
             if(empty($admin)) 
             {
-                echo "请输入账号";
+                echo '<script>window.alert("请输入账号");</script>';
                 return;
             }
             else if(empty($password))
             {
-                echo "请输入密码";
+                echo '<script>window.alert("请输入密码")</script>';
                 return;
             }
             $sql="select id FROM admin where account='$admin' and password='$password'";
