@@ -27,7 +27,6 @@
         <ul>
             <li>                
                 <p>公式管理</p>
-                <!-- <div class="flag"></div> -->
                 <div class="panel">
                     <?php
                     $link=mysqli_connect('localhost','root','password','magicube_study','3306');
@@ -135,7 +134,6 @@
                                 mysqli_query($link,$sql);
                                 echo '<script>window.alert("已修改");location.href="admin.php"
                                     </script>';
-                                // header('location:#');
                             }                            
                         }                        
                         echo "</table>";
@@ -144,8 +142,17 @@
                     ?>                   
                 </div>
             </li>
+            <li>
+                <p>账号管理</p>
+                <div class="panel">
+                </div>
+            </li>
             
         </ul>
     </div>
+    
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/admin.js"></script>
 </body>
+
 </html>

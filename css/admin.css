@@ -42,7 +42,7 @@ html,body{
     float: left;
     padding: 20px 68px;
     color: rgb(239,255,255);
-    background: rgb(0,110,255);
+    background: transparent;
     /* padding-right: 60px; */
 }
 /* .side li .flag{
@@ -54,23 +54,16 @@ html,body{
 } */
 .side li .panel{
     position: absolute;
-    top: 80px;
-    left: 200px;
+    top: 90px;
+    left: 210px;
     color: black;
     width: 1300px;
     height: 600px;
     overflow: auto;
 }
-.side li .add{
-    position: absolute;
-    background-color: red;
-    top: 200px;
-    left: 500px;
-    width: 300px;
-    height: 300px;
-}
 .side li .spanel{
     float: left;
+    padding: 10px;
 }
 .delbt{
     background-color: red;
