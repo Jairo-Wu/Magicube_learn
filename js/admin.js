@@ -10,3 +10,4 @@ lip.click(
         lip.eq(k).css("background-color","rgb(0,110,255)");
     }
 )
+lip.eq(0).css("background-color","rgb(0,110,255)");

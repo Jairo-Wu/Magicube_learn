@@ -43,15 +43,7 @@ html,body{
     padding: 20px 68px;
     color: rgb(239,255,255);
     background: transparent;
-    /* padding-right: 60px; */
 }
-/* .side li .flag{
-    background-color: aliceblue;
-
-    float: right;
-    width: 10px;
-    height: 60px;
-} */
 .side li .panel{
     position: absolute;
     top: 90px;

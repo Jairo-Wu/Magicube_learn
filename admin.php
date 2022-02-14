@@ -27,7 +27,7 @@
         <ul>
             <li>                
                 <p>公式管理</p>
-                <div class="panel">
+                <div class="panel" style="display: block;">
                     <?php
                     $link=mysqli_connect('localhost','root','password','magicube_study','3306');
                         if(!$link){
@@ -144,7 +144,7 @@
             </li>
             <li>
                 <p>账号管理</p>
-                <div class="panel">
+                <div class="panel" style="display: none;">
                 </div>
             </li>
             
