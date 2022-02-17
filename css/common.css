@@ -73,7 +73,7 @@ body{
 }
 .side .sidein{
     float: left;
-    height: 623px;
+    height: 625px;
     width: 1200px;
     top: 0;
     color: azure;
@@ -81,7 +81,8 @@ body{
     overflow: auto;
     display: none;
     background-color: #f2f2f2;
-    
+    border: 1px solid white;
+    border-radius: 5px;
 }
 .side div ul li .situation
 {
@@ -104,29 +105,25 @@ body{
     margin-left: 0;
     margin-top: 46px;
     border-radius: 50%;
-    /* background-color: rgb(43,48,59); */
     background-color:transparent;
 
 }
 .side div ul li div{
     width: 854px;
-    height: 575px;
+    height: 577px;
     position: absolute;
     left: 250px;
     top: 25px;
-    /* background:url("../img/blackboard.jpg") no-repeat ; */
-    /* background-color: rgb(43,48,59); */
     background-color: white;
-
     background-size: cover;
     display: none;
     box-shadow: 10px 15px 15px 1px rgb(54 58 80 / 32%);
-
-    color: tomato;
+    border: 1px solid white;
+    border-radius: 5px;
 
 }
 .side div ul{
-    width: 130px;
+    width: 137px;
     height: 575px;
     margin: 24px;
     padding: 0;
@@ -134,7 +131,8 @@ body{
     overflow: auto;
     box-shadow: 10px 15px 15px 1px rgb(54 58 80 / 32%);
     background-color: white;
-
+    border: 1px solid white;
+    border-radius: 5px;
 }
 .side div ul::-webkit-scrollbar{
     border-width:1px;
@@ -151,12 +149,6 @@ body{
     left: 20px;
     width: 815px;
 }
-/* .side .formula{
-    float: left;
-    position: relative;
-    top: 20px;
-    left: 20px;
-} */
 /*                                  main end                           */
 
 
