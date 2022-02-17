@@ -35,10 +35,10 @@
         </div>
         <div>
            <ul>               
-                <li ><a href="#">CROSS</a></li>
-                <li ><a href="#">F2L</a></li>
-                <li ><a href="#">OLL</a></li>
-                <li ><a href="#">PLL</a></li>
+                <li ><a href="">CROSS</a></li>
+                <li ><a href="">F2L</a></li>
+                <li ><a href="">OLL</a></li>
+                <li ><a href="">PLL</a></li>
             </ul>  
         </div>
     </div>
