@@ -43,7 +43,6 @@
         </div>
     </div>
     <!-- main -->
-    
         <div class="border"></div>
         <div class="side">
         <?php
@@ -115,7 +114,10 @@
             }            
             mysqli_close($link);
         ?>
-        </div>     
+        </div>
+    <div class="foot">
+        <a href="http://beian.miit.gov.cn/" target="_blank"> 冀ICP备2021000880号</a>
+    </div>     
     <!-- 魔方 -->
     <div class="cube">
         <div class="cube_close" ></div>
