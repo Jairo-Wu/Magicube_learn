@@ -1,5 +1,9 @@
 var head_word=$(".head div ul li");
 var side=$(".side .sidein");
+$(".formula").on("error", function(){
+    var text=$(this).attr("alt") || "";
+    $(this).replaceWith(document.createTextNode(text));
+});
 head_word.click(
     function()
     {   head_word.removeClass();
